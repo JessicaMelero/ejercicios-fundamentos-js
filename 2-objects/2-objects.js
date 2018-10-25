@@ -6,6 +6,15 @@
 
 // Aquí tu código
 
+obj = {
+    a: {
+        b: true,
+        c: [0, 2],
+    },
+    d: 5,
+    f: 'alex'
+}
+
 // Hasta aquí
 
 // TEST 1
