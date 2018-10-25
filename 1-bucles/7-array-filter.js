@@ -35,3 +35,8 @@ let gente = [{
     },
 ]
 
+
+var letras = gente.filter(function(i) {
+    return i.nombre.charAt(0) === 'J' && i.edad < 40;
+});
+console.log(letras);
