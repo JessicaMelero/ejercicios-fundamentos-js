@@ -13,14 +13,21 @@ for (let i = 0; i < 101; i++) {
         console.log(i + ' GEEKS');
         
     }else {
+
         console.log(i);
+
     }
     if ( i % 5 === 0 ) {
-        console.log(i + ' HUBS');    
+        
+        console.log(i + ' HUBS');  
+
     }else {
+
         console.log(i);
+
     }
     if (i % 3 === 0 && i % 5 === 0) {
+
         console.log(i + ' GEEKSHUBS');    
 
     }
