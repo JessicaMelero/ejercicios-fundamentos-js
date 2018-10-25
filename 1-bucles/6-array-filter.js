@@ -33,7 +33,6 @@ let gente = [{
     },
 ]
 
-var letras = [];
 
 var letras = gente.filter(function(numeroLetras) {
     return numeroLetras.nombre.length === 4;
