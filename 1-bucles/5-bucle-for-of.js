@@ -33,3 +33,12 @@ let gente = [{
         edad: 10
     },
 ]
+
+var empiezaJota = [];
+
+for (var i of gente) {
+    if (i.nombre.charAt(0) === 'J') {
+        empiezaJota = [i];
+        console.log(empiezaJota);
+    }
+}
