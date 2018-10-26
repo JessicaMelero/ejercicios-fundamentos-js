@@ -8,6 +8,19 @@
 
 // Aquí tu código
 
+    let convierteEurosEnPesetas = (numero) => {
+        let pasar = 168;
+        numero *= 168;
+       
+
+        if (typeof numero !== 'number') {
+            throw new Error('convierteEurosEnPesetas debe recibir un number');
+        }
+
+        return numero;
+    
+    }
+    console.log(convierteEurosEnPesetas);
 // Hasta aquí
 
 
