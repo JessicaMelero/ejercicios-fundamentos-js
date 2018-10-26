@@ -8,7 +8,13 @@
 
 // Aquí tu código
 
+let convierteEurosEnPesetas = (numero) => {
+    let pasar = 168;
+    numero *= 168;
+    return numero;
 
+}
+convierteEurosEnPesetas(2);
 // Hasta aquí
 
 
