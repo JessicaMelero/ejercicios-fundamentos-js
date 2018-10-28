@@ -16,8 +16,24 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 console.log('El array original es:  arr =', arr);
 // Aquí tu código
 
+var dobleArr = [];
+
+for (let i of arr) {
+    
+    dobleArr = arr.map(function(x){
+        return x * 2;
+    });
+}
 
 
+
+console.log("ARRAY DOBLE "+dobleArr)
+//
+// for (let i = 0; i < arr.length; i++) {
+//     dobleArr[i] = arr[i] * 2;
+    
+// }
+// console.log(dobleArr);
 
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);
