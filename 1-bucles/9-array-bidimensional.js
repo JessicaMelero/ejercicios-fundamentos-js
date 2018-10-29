@@ -17,9 +17,8 @@ for (let i = 0; i < 3; i++) {
 
     for (let j = 0; j < 1 ; j++) {
 
-            matriz[i][j] = '['+i+j+']'+'['+i+'1]'+'['+i+'2]'; 
+        matriz[i][j] = '['+i+j+']'+'['+i+'1]'+'['+i+'2]'; 
     
-            console.log(matriz[i][j]); 
+        console.log(matriz[i][j]); 
     }
 }
-
