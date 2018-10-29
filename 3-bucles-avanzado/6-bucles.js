@@ -17,12 +17,13 @@ console.log('El array original es:  arr =', arr);
 // Aquí tu código
 
 var dobleArr = [];
-
-for (let i of arr) {
+// dobleArr = arr.map(function(i){
+//     return i * 2;
+// });
+for (let number of arr) {
     
-    dobleArr = arr.map(function(x){
-        return x * 2;
-    });
+    dobleArr.push(number*2)
+   
 }
 
 
