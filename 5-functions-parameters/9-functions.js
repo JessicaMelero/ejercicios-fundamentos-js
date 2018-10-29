@@ -10,6 +10,18 @@
 
 // Aquí tu código
 
+    let muestraPorConsolaEurosEnPesetas = (numero) => {
+
+      
+        
+        if (typeof numero !== 'number') {
+            throw new Error('muestraPorConsolaEurosEnPesetas debe recibir un number');
+        } else{
+            numero *= 168;
+            console.log(numero)
+        }
+
+    }
 
 // Hasta aquí
 
