@@ -12,11 +12,25 @@
 let sumaDesdeHasta = (desde, hasta) => {
     let sumatorio = 0;
     // Aquí tu código.  Desde aquí:
+   
+    if(desde > hasta) {
+
+        for (let i = hasta; i <= desde; i++ ) {
+            sumatorio += i;
+        } 
+
+    } else {
+        
+        for (let i = desde; i <= hasta; i++ ) {
+            sumatorio += i;
+        }
+    } 
+        // hasta  =  -9  desde = 5
 
     // Hasta aquí.
     return sumatorio;
-}
 
+}
 
 let test = require('../test.js');
 
