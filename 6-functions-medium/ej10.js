@@ -13,7 +13,11 @@
 // Ha de pasar los test adjuntados.
 
 // Aquí tu código.  Desde aquí:
-const conCuantosParametrosMeHanEjecutado;
+let conCuantosParametrosMeHanEjecutado = (...rest) => {
+    return rest.length;
+};
+
+console.log(conCuantosParametrosMeHanEjecutado);
 // Hasta aquí.
 
 
